@@ -70,7 +70,7 @@
 
             <div class="profile__buttons">
                 <!-- Insert your CV -->
-                <a download="" href="assets/pdf/mycv.pdf" class="button">
+                <a download="" href="assets/pdf/CV_Int.pdf" class="button">
                         Download CV <i class="ri-download-line"></i>
                     </a>
 
@@ -99,11 +99,29 @@
                 <button class="filters__button" data-target="#skills">
                         Skills
                     </button>
+                <button class="filters__button" data-target="#certified">
+                        Certified
+                    </button>
             </ul>
 
             <div class="filters__sections">
                 <!--=============== PROJECTS ===============-->
                 <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="assets/img/sportation.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Sportstation</h3>
+                                <a href="https://helmisjy.github.io/Sportation/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
                     <article class="projects__card">
                         <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
                         <img src="assets/img/portfolio4.jpg" alt="" class="projects__img">
@@ -124,7 +142,7 @@
 
                         <div class="projects__modal">
                             <div>
-                                <span class="projects__subtitle">Web (Source Code)</span>
+                                <span class="projects__subtitle">Web (Codeigniter 4)</span>
                                 <h3 class="projects__title">Merry Riana Store</h3>
                                 <a href="https://github.com/Helmisjy/MRG_Project" class="projects__button button button__small">
                                     <i class="ri-link"></i>
@@ -152,23 +170,9 @@
 
                         <div class="projects__modal">
                             <div>
-                                <span class="projects__subtitle">E-Invitation Wedding</span>
-                                <h3 class="projects__title">GROOVI</h3>
+                                <span class="projects__subtitle">Web (Codeigniter 4)</span>
+                                <h3 class="projects__title">E-invitation Wedding</h3>
                                 <a href="https://groovi.my.id" class="projects__button button button__small">
-                                    <i class="ri-link"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="projects__card">
-                        <img src="assets/img/project6.jpg" alt="" class="projects__img">
-
-                        <div class="projects__modal">
-                            <div>
-                                <span class="projects__subtitle">Setup</span>
-                                <h3 class="projects__title">Work Station</h3>
-                                <a href="#" class="projects__button button button__small">
                                     <i class="ri-link"></i>
                                 </a>
                             </div>
@@ -342,6 +346,23 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <!--=============== Certified ===============-->
+                <div class="certified__content grid" data-content id="certified">
+                    <article class="projects__card">
+                        <img src="assets/img/certified.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Course</span>
+                                <h3 class="projects__title">Fundamental UI/UX Design</h3>
+                                <a download="" href="assets/pdf/Certificate.pdf" class="projects__button button button__small">
+                                    Download Certified<i class="ri-download-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
